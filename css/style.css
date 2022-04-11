@@ -3,21 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-:root{
-    --header-color:#ADD8E6;
-    --jumbo-color: #00008B;
-    --pink-color: #EE81EE;
-    --col-sm-color:#FFBFCB;
-    --col-lg-color: #1C90FF;
-    --green-color: #228B21;
-    --turchese-color: #20B1A9;
-    --azzurro-color: #7FFFD3;
-    --peach-color:#EF8080;
-    --grey-color:#D3D3D3;
-    --black-color: #23272A;
-    --yellow-color:#DAA520;
-    --padding-default: 2rem;
-}
+
 /* section tags */
 
 header {
@@ -33,16 +19,16 @@ header {
     min-width: 300px;
     width: 100%;
     margin: 0 auto;
-    padding: calc(var(--padding-default)/4) calc(var(--padding-default)/2);
+    padding: .5rem 1rem;
 }
 .margin-tb{
     margin: 1rem 0;
 }
 .side {
     max-width: 20%;
-    background-color: var(--yellow-color);
-    padding: calc(var(--padding-default)/4) 3rem;
-    border: 3px dotted var(--black-color);
+    background-color: #DAA520;
+    padding: .5rem 3rem;
+    border: 3px dotted black;
 }
 .flex {
     display: flex;
@@ -51,27 +37,27 @@ header {
 .main-menu {
     max-width: 80%;
     width: 100%;
-    background-color: var(--yellow-color);
+    background-color: #DAA520;
 }
 .main-menu ul {
     list-style: none;
-    border: 3px dotted var(--black-color);
+    border: 3px dotted black;
 }
 .main-menu ul li{
-    padding: calc(var(--padding-default)/4) 3rem;
+    padding: .5rem 3rem;
 }
 .bg-color-head-section {
-    background-color: var(--jumbo-color);
+    background-color: #00008B;
 }
 .bg-color-grey {
-    background-color: var(--grey-color);
+    background-color: #D3D3D3;
 }
 .main-content {
     width: 100%;
     max-width: 80%;
     margin: 0 auto;
-    background-color: var(--pink-color);
-    padding: var(--padding-default) 3rem;
+    background-color: #EE81EE;
+    padding: 2rem 3rem;
     min-height: 300px;
 }
 .col-lg {
@@ -80,7 +66,7 @@ header {
     min-height: 400px;
 }
 .bg-color-lg{
-    background-color: var(--col-lg-color);
+    background-color: #1C90FF;
 }
 .col-sm {
     width: 100%;
@@ -90,40 +76,39 @@ header {
     border: 2px dotted white;
 }
 .bg-color-pink{
-    background-color: var(--col-sm-color);
+    background-color:#FFBFCB;
 }
 .col {
-    padding: calc(var(--padding-default)/4) 1.5rem;
+    padding: .5rem 1.5rem;
 }
 .col-reverse {
     flex-direction: row-reverse;
 }
 .bg-color-green {
-    background-color: var(--green-color);
+    background-color: #228B21;
     min-height: 700px;
 }
 .bg-color-black {
-    background-color: var(--black-color);
+    background-color: #23272A;
 }
 .col-xlg {
     min-width: 30%;
 }
 .bg-color-peach{
-    background-color: var(--peach-color);
+    background-color: #EF8080;
 }
 .bg-color-gw{
-    background-color: var(--turchese-color);
+    background-color: #20B1A9;
 }
 .flex-space{
     justify-content: space-between;
 }
 .logo-footer , .button-footer{
     align-items: center;
-    background-color: var(--col-sm-color);
     border: 2px dotted black;
 }
 .bg-color-azure {
-    background-color: var(--azzurro-color);
+    background-color: #7FFFD3;
 }
 .padding-tb{
     padding: 1rem 0;
